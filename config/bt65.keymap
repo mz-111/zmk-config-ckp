@@ -12,11 +12,11 @@
 
 		layer_default {
 				// ------------------------------------------------------------------------------------------------------------
-				// | ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  | BKSP      | 		
-				// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  | \         | DEL		
-				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  | ENTER          | HOME
-				// | SHIFT  | |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   | SHIFT      | UP   | END
-				// | CTRL  |  WIN  |  ALT  | SPACE                          | ALT | ^1   | ^2   | LEFT | DOWN | RIGHT	
+				// | ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  | BKSP     | 		
+				// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  | \        | DEL		
+				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  | ENTER         | HOME
+				// | SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   | SHIFT       | UP   | END
+				// | CTRL  |  WIN  |  ALT  | SPACE                         | ALT | ^1   | ^2   | LEFT | DOWN | RIGHT	
 				// ------------------------------------------------------------------------------------------------------------
 			bindings = <
 
@@ -54,7 +54,7 @@
 			bindings = <
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &rgb_ug RGB_SPD &rgb_ug RGB_SPI &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &rgb_ug RGB_HUD &rgb_ug RGB_HUI &trans &trans 
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_TOG &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &rgb_ug RGB_SAD &rgb_ug RGB_SAI &bl BL_TOG &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &rgb_ug RGB_BRD &rgb_ug RGB_BRI &trans &rgb_ug RGB_EFF &trans
 				&kp X &trans &trans &trans &trans &trans &trans &trans &rgb_ug RGB_EFR &trans
 			>;
